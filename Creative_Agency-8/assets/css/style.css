@@ -227,3 +227,61 @@ body{
     content: "";
     background-color: #22bbc0;
 }
+.single-skill-bar{
+    text-align: center;
+}
+#web-design-skillbar{
+    position: relative;
+}
+span.skill-count-no{
+    font-size: 48px;
+    font-weight: 700;
+    position: absolute;
+    color: #333;
+    left: 0;
+    width: 100%;
+    top: 45%;
+    line-height: 50px;
+    margin-top: -25px;
+}
+.single-skill-bar h3{
+    margin-top: 25px;
+}
+.single-skill-bar{
+    margin-top: 50px;
+}
+.cta-area{
+    background: url(../img/cta-area.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.black-overlay,.black-overlay h1, .black-overlay, .boxed-btn{
+    color: #fff;
+}
+.black-overlay{
+    position: relative;
+    z-index: 2;
+}
+.black-overlay::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    z-index: -1;
+    opacity: .7;
+}
+
+.btn-top a {
+	margin-top: 59px;
+	text-decoration: none;
+    color: #fff;
+}
+.btn-top a:hover{
+    background: transparent;
+    color: aqua;
+    border: 1px solid;
+}
