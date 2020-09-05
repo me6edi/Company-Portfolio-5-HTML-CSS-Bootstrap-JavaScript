@@ -169,6 +169,9 @@ body{
 .space-90{
     height: 90px;
 }
+.space-70{
+    height: 70px;
+}
 .tile-gallery {
     position: relative;
     height: 675px;
@@ -284,4 +287,113 @@ span.skill-count-no{
     background: transparent;
     color: aqua;
     border: 1px solid;
+}
+
+.portfolio-bg-1{background: url(../img/portfolio-1.jpg);}
+.portfolio-bg-2{background: url(../img/portfolio-2.jpg);}
+.portfolio-bg-3{background: url(../img/portfolio-3.jpg);}
+.portfolio-bg-4{background: url(../img/portfolio-4.jpg);}
+
+.single-portfolio-item{
+    height: 310px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+    margin: 15px 0;
+    box-shadow: 4px 6px 5px #f1f1f1;
+}
+.portfolio-hover{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    font-size: 20px;
+    transition: .2s;
+    opacity: 0;
+    visibility: hidden;
+}
+.portfolio-hover::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background: #000;
+    z-index: -1;
+    opacity: .7;
+}
+.portfolio-hover-table{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.portfolio-hover-tablecell{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.portfolio-hover h4,.portfolio-hover a{
+    color: #fff;
+}
+.portfolio-hover h4{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.single-portfolio-item:hover .portfolio-hover{
+    opacity: 1;
+    visibility: visible;
+}
+.single-portfolio-item.large{
+    height: 650px;
+}
+.no-padding-top{
+    padding-top: 0;
+}
+
+.team-list{
+    margin-top: 70px;
+}
+.single-team-item{
+    background: #fbfbfb;
+    padding: 30px;
+    text-align: center;
+}
+
+.owl-carousel .owl-item .single-team-item img{
+    display: inline-block;
+    width: auto;
+}
+
+.single-team-item img{
+    border-radius: 50%;
+}
+.single-team-item h4 span{
+    display: block;
+    color: #888888;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Zilla Slab', serif;
+    margin-top: 10px;
+}
+.single-team-item h4 {
+    margin: 30px 0 25px;
+}
+.owl-dots div{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #eeeeee;
+    display: inline-block;
+    margin: 4px ;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dots div.active{
+    background-color: #22bbc0;
 }

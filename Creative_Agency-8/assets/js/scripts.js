@@ -8,6 +8,14 @@ jQuery(document).ready(function($){
         autoply: false,
     });
 
+    $(".team-list").owlCarousel({
+      items: 3,
+      margin: 30,
+      nav: false,
+      dots: true,
+      autoply: true,
+  });
+
     $("#web-design-skillbar").circleProgress({
         value: 0.9,
         size: 270,
