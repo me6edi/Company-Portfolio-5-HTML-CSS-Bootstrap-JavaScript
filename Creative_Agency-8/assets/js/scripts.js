@@ -16,6 +16,22 @@ jQuery(document).ready(function($){
       autoply: true,
   });
 
+  $(".testimonial-list").owlCarousel({
+    items: 5,
+    margin: 30,
+    nav: false,
+    dots: true,
+    autoply: true,
+});
+
+$(".logo-carousel").owlCarousel({
+  items: 3,
+  margin: 30,
+  nav: false,
+  dots: true,
+  autoply: true,
+});
+
     $("#web-design-skillbar").circleProgress({
         value: 0.9,
         size: 270,
