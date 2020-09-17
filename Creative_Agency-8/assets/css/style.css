@@ -516,3 +516,121 @@ span.skill-count-no{
     font-size: 14px;
     font-weight: 400;
 }
+.hero-area{
+    background-image: url(../img/hero-area.jpg);
+}
+.hero-area{
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+.hero-text{
+    font-size: 16px;
+    margin-top: 120px;
+}
+.hero-text h2 {
+    font-size: 45px;
+    line-height: 60px;
+    margin-bottom: 22px;
+    color: #fff;
+}
+.register-now-form{
+    background: #fff;
+    padding: 60px;
+    border-top: 10px solid #22bac0;
+}
+input, button, textarea{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+input[type=submit],button[type=submit]{
+    width: auto;
+    border: none;
+    background-color: #0bbbc1;
+    color: #fff;
+    border-radius: 3px;
+}
+.register-now-form p{
+    margin-bottom: 20px;
+}
+.register-now-form h3{
+    margin-top: -10px;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+.register-now-form p:last-child{
+    margin-bottom: 0;
+}
+.register-now-form input[type=submit]{
+    width: 100%;
+}
+.register-now-form h3 span{
+    color: #ed5d5d;
+}
+.ticker-text{
+    background: #2f2f2f;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 29px;
+    border-radius: 50px;
+    margin-bottom: 9px;
+}
+.margin-80{
+    margin: 80px 0;
+}
+.margin-30{
+    margin: 30px 0;
+}
+.service-icon.service-icon-wrap {
+	background-color: #fbfbfb;
+}
+.service-box:hover{
+    background-color: #fafafa;
+    cursor: pointer;
+}
+.service-box {
+    margin-bottom: 50px;
+    padding: 30px 20px;
+}
+.theme-2 .single-team-item {
+    box-shadow: 0 0 8px #f1f1f1;
+    margin: 4px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.theme-2 .single-team-item:hover {
+    box-shadow: 0 0 0;
+    border: 1px solid #22bbc0;
+}
+.margin-bottom-80{
+    margin-bottom: 80px;
+}
+.single-blog-box{
+    box-shadow: 0 0 5px #f1f1f1;
+    padding: 27px;
+}
+.single-blog-box a{
+    color:  #22bbc0;
+    text-decoration: none;
+}
+.single-blog-box a i.fa{
+    padding-left: 5px;
+}
+.single-blog-box h1{
+    font-size: 18px;
+}
+.footer-area.dark-bg{
+    background-color: #131313;
+}
+.footer-area.dark-bg,.footer-area.dark-bg a,.footer-area.dark-bg h3{
+    color: #fff;
+}
+.dark-bg .social-links a{
+    border-color: #fff;
+}
+.section-bg-2{
+    background-image: url(../img/cta-area2.jpg);
+}
