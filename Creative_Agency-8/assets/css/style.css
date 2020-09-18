@@ -18,6 +18,10 @@ body{
     background-image: url(../img/Our-company.jpg);
     background-size: cover;
 }
+.section-bg-3{
+    background-image: url(../img/section-bg-3.jpg);
+    background-size: cover;
+}
 .logo{
     font-size: 20px;
     font-weight: 700;
@@ -270,7 +274,7 @@ span.skill-count-no{
     background-size: cover;
     background-position: center;
 } */
-.black-overlay,.black-overlay h1, .black-overlay, .boxed-btn{
+.black-overlay,.black-overlay h1, .black-overlay, .black-overlay h4, .boxed-btn{
     color: #fff;
 }
 .black-overlay{
@@ -633,4 +637,31 @@ input[type=submit],button[type=submit]{
 }
 .section-bg-2{
     background-image: url(../img/cta-area2.jpg);
+}
+.breadcromb-area{
+    font-size: 16px;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+.breadcromb-area a{
+    color: #fff;
+}
+.breadcromb-area h2{
+    font-size: 50px;
+}
+.breadcromb-bg-1{
+    background-image: url(../img/breadcromb-bg-1.jpg);
+    background-size: cover;
+}
+.breadcromb-area.breadcromb-bg-1.black-overlay h2 {
+    color: #fff;
+}
+.service-icon-2 {
+    font-size: 35px;
+}
+.copy-right h5 {
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: -50px;
+    color: #b3b3b3;
 }
