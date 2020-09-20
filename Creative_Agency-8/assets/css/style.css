@@ -665,3 +665,44 @@ input[type=submit],button[type=submit]{
     margin-bottom: -50px;
     color: #b3b3b3;
 }
+.widget-2{
+    background-color: #fafafa;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.nav_menu ul{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+.nav_menu li a{
+    background: #fafafa;
+    display: block;
+    margin-bottom: 10px;
+    padding: 14px 37px;
+    color: #333;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.widget-2.boxed-btn{
+    border-radius: 0;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    margin-top: 28px;
+}
+.widget-2 a{
+    color: #fff;
+    text-decoration: none;
+}
+.widget .nav_menu{
+    padding: 0;
+}
+.nav_menu li a:hover{
+    background: #22bac0;
+    color: #fff;
+}
+.service-discription h3{
+    margin-top: 50px;
+}
