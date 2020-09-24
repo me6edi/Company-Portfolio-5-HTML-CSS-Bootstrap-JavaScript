@@ -59,5 +59,27 @@ $(".logo-carousel").owlCarousel({
     }).on('circle-animation-progress', function(event, progress) {
         $(this).find('.skill-count-no').html(Math.round(84 * progress) + '<i>%</i>');
       });
-      
+
+
+
+$(".portfolio-filter li").on('click', function(){
+  $(".portfolio-filter li").removeClass("active");
+  $(this).addClass("active");
+
+  var filterValue = $(this).attr("data-filter");
+
+  $(".portfolio-list").isotope({
+    filter: filterValue
+  });
+
+});
+
+    $('.portfolio-list').isotope({
+      layoutMode: 'masonry',
+      masonry: {
+        columnWidth: '.col-md-3',
+        horizontalOrder: false
+      }
+    });
+          
 });

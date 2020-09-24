@@ -706,3 +706,20 @@ input[type=submit],button[type=submit]{
 .service-discription h3{
     margin-top: 50px;
 }
+.portfolio-filter{
+    margin: 0 0 50px;
+    font-size: 16px;
+    font-family: 'Zilla Slab', serif;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    list-style: none;
+}
+.portfolio-filter li{
+    display: inline;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.portfolio-filter li.active{
+    color: #22babf;
+}
