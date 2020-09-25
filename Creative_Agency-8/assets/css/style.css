@@ -3,9 +3,19 @@ h1,h2,h3,h4,h5,h6  {font-family: 'Zilla Slab', serif; color:#888888}
 h1,h2,h3,h4,h5,h6{
     margin: 0 0 15px;
 }
+
+a:hover, a:focus{text-decoration: none;}
+input:focus, button:focus, textarea:focus {outline:none;}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 body{
     line-height: 1.8;
 }
+
 
 .slide-bg-1{
     background-image: url(../img/slide-bg.jpg);
@@ -186,6 +196,9 @@ body{
 }
 .space-70{
     height: 70px;
+}
+.space-45{
+    height: 45px;
 }
 .tile-gallery {
     position: relative;
@@ -722,4 +735,7 @@ input[type=submit],button[type=submit]{
 }
 .portfolio-filter li.active{
     color: #22babf;
+}
+.testimonial-area .single-testimonial-item{
+    box-shadow: 0 0 4px #ddd;
 }
