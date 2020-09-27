@@ -739,3 +739,39 @@ input[type=submit],button[type=submit]{
 .testimonial-area .single-testimonial-item{
     box-shadow: 0 0 4px #ddd;
 }
+.panel.panel-default a {
+    background: none;
+    color: #000;
+}
+.twist-faqs .panel.panel-default{
+
+}
+.panel.panel-default {
+    background: #fbfbfb;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 0 0 5px #ebe7f0;
+}
+.panel-title a{
+    display: block;
+    padding: 16px;
+    position: relative;
+}
+.panel-title a::after{
+    content: "+";
+    position: absolute;
+    right: 0;
+    background: #22bac0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    line-height: 26px;
+    right: 14px;
+    top: 50%;
+    margin-top: -15px;
+}
+.panel-title a[aria-expanded="true"]::after{
+    content: "-";
+}
