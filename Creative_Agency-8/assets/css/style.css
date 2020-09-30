@@ -32,6 +32,12 @@ body{
     background-image: url(../img/section-bg-3.jpg);
     background-size: cover;
 }
+.blog-thumb-1{background: url(../img/blog-thum-1.jpg);}
+.blog-thumb-2{background: url(../img/blog-thum-2.jpg);}
+.blog-thumb-3{background: url(../img/blog-thum-3.jpg);}
+.blog-thumb-4{background: url(../img/blog-thum-4.jpg);}
+.blog-thumb-5{background: url(../img/blog-thum-5.jpg);}
+
 .logo{
     font-size: 20px;
     font-weight: 700;
@@ -774,4 +780,35 @@ input[type=submit],button[type=submit]{
 }
 .panel-title a[aria-expanded="true"]::after{
     content: "-";
+}
+.panel-body {
+    padding: 2px 35px;
+    padding-bottom: 35px;
+}
+.blog-thumb{
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+.single-blog-post{
+    margin-bottom: 30px;
+}
+.post-date{
+    color: #777777;
+    text-transform: uppercase;
+}
+.blog-desc h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.blog-desc a {
+    color: #05bbc1;
+}
+.blog-desc{
+    padding-top: 5px;
+}
+.blog-desc a {
+    font-size: 14px;
+    font-weight: 700;
 }
