@@ -812,3 +812,37 @@ input[type=submit],button[type=submit]{
     font-size: 14px;
     font-weight: 700;
 }
+ul.pagination li a{
+    border: none;
+    background: #f9f9f9;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #333;
+    border-radius: 50%;
+    display: block;
+    height: 50px;
+    width: 50px;
+    line-height: 37px;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+}
+.widget.widget_search{
+    background: none;
+    padding: 0;
+    box-shadow: 0 0 5px #ddd;
+}
+.search-widget input{
+    border: none;
+    width: 80px;
+    padding: 15px;
+}
+.search-widget button{
+    float: right;
+    background: transparent;
+    padding: 15px;
+    color: #000;
+}
+
+
+
