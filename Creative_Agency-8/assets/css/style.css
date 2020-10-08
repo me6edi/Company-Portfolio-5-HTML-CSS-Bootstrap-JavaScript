@@ -941,13 +941,13 @@ blockquote {
 .author-details {
     margin-bottom: 70px;
 }
-h2.comment-title {
+h2.comment-title,.comment-form h2{
     font-size: 24px;
     position: relative;
     margin-bottom: 50px;
     padding-bottom: 10px;
 }
-h2.comment-title::after{
+h2.comment-title::after,.comment-form h2::after{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -955,4 +955,49 @@ h2.comment-title::after{
     width: 50px;
     content: "";
     background: #0dbbc1;
+} 
+.author-details img {
+    border-radius: 50%;
 }
+ul.comments{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.comments li{
+    background: #fbfbfb;
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 116px;
+}
+img.comment-author-img{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    border-radius: 50%;
+}
+.comment-meta h4{
+    margin-bottom: 5px;
+} 
+.comment-meta{
+    font-size: 12px;
+    margin-bottom: 18px;
+    position: relative;
+}
+a.comment-reply-btn{
+    float: right;
+    font-family: 'Zilla Slab', serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -20px;
+}
+.comment-form input[type="text"], .comment-form input[type="url"], .comment-form input[type="email"], .comment-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.comment-form textarea{
+    height: 150px;
+}
+
