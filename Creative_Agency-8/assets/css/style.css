@@ -1000,4 +1000,59 @@ a.comment-reply-btn{
 .comment-form textarea{
     height: 150px;
 }
-
+.contact-box {
+    background-image: url(../img/contact-box-bg.jpg);
+}
+.contact-box {
+    background-size: cover;
+    background-position: center;
+    background-color: #112e2f;
+    position: relative;
+    z-index: 2;
+    padding: 40px 65px;
+}
+.contact-box::after {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #112e2f;
+    top: 0;
+    z-index: -1;
+    opacity: .8;
+}
+.contact-box, .contact-box h2, .contact-box h3 {
+    color: #fff;
+}
+.contact-box h2{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.contact-box h3{
+    font-size: 20px;
+}
+.single-contact-info{
+    margin-bottom: 30px;
+}
+.single-contact-info:last-child{
+    margin-bottom: 0;
+}
+.contact-form h2{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.contact-form input [type=text],
+.contact-form input[type=email], .contact-form input [type=tel]{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.single-contact-info i.fa {
+    padding-right: 10px;
+}
+.contact-form textarea{
+    height: 200px;
+}
+.mainmenu ul li a:hover{
+    color: #22babf;
+} 
