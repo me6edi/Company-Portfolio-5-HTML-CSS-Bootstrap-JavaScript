@@ -1,0 +1,38 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .slide-text h2 {
+        color: #fff;
+        font-size: 50px;
+    }
+    .tile-gallery img {
+        max-width: 320px;
+    } 
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and  (max-width: 991px) {
+ 
+}
+
+/* Tablet & mobile layout: 768px. */
+@media only screen and  (max-width: 991px) {
+ .mainmenu{
+     display: none;
+ }
+}
+/* Mobile layout: 320px. */
+@media only screen and (max-width: 767px){
+
+}
+
+/* Wide Mobile layout:480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+}
